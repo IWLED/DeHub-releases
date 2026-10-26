@@ -14,6 +14,7 @@ Delovine is a self-hosted media library for movies, series, and anime. Run it on
 | Linux server (ARM64) | `delovine-server-<version>-linux-aarch64.tar.gz` | Server archive for 64-bit ARM devices. |
 | Linux desktop (Intel/AMD) | `Delovine-Desktop-<version>-linux-x86_64.AppImage`, `Delovine-Desktop-<version>-linux-amd64.deb`, or `Delovine-Desktop-<version>-linux-x86_64.rpm` | Desktop app; choose the package for your distribution. |
 | Android phone or tablet | `Delovine-<version>-android.apk` | Client app; needs a Delovine server. The latest APK may be in an earlier release. |
+| Android TV / Google TV | `Delovine-TV-<version>-android.apk` | TV client with remote control navigation; needs a Delovine server. |
 | Docker host | `ghcr.io/iwled/delovine:latest` | Server container; configure persistent data and media volumes. |
 
 **Server** hosts your library. **Desktop** includes the server and opens its own window. `x64`, `x86_64`, and `amd64` all mean 64-bit Intel/AMD; `aarch64` means ARM64.
